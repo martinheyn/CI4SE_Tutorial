@@ -1,0 +1,119 @@
+% =====================================================================
+%  Introduction to Causal Inference for Software Engineering
+%  Beamer template (pdfLaTeX) matching the PowerPoint version.
+%
+%  Compile with:  pdflatex tutorial_template.tex   (run twice)
+%
+%  Fonts: Caladea (headings) and Carlito (body) are free, metric-
+%  compatible substitutes for Cambria and Calibri. Both ship with
+%  recent TeX Live / MiKTeX. If a font package is missing, install
+%  "caladea" and "carlito" via your TeX package manager.
+%
+%  Logos expected in the same folder:
+%    fraunhofer.png  chalmers.png  goteborg.png  napoli.png
+% =====================================================================
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+% ---- Fonts (Cambria/Calibri look-alikes) ----------------------------
+\usepackage{caladea}   % serif, matches Cambria  -> headings
+\usepackage{carlito}   % sans,  matches Calibri  -> body
+\renewcommand{\familydefault}{\sfdefault}  % body default = Carlito (sans)
+\newcommand{\headingfont}{\rmfamily}        % caladea maps \rmfamily -> serif headings
+
+% ---- Palette --------------------------------------------------------
+\definecolor{navy}{HTML}{1E3A5F}   % discreet academic blue, headings
+\definecolor{muted}{HTML}{7A8794}  % footer / secondary text
+\definecolor{ink}{HTML}{2B2B2B}    % body text
+
+\setbeamercolor{normal text}{fg=ink}
+\setbeamercolor{frametitle}{fg=navy}
+\setbeamercolor{itemize item}{fg=ink}
+\setbeamercolor{itemize subitem}{fg=ink}
+\setbeamertemplate{navigation symbols}{}
+
+% Plain round bullets, like the PowerPoint
+\setbeamertemplate{itemize item}{\small\raise0.15ex\hbox{\textbullet}}
+\setbeamertemplate{itemize subitem}{\scriptsize\raise0.15ex\hbox{\textbullet}}
+
+% Side margins ~ 0.4in
+\setbeamersize{text margin left=6.4mm, text margin right=6.4mm}
+
+% ---- Header: four logos equally distributed across the width --------
+% Author order: Fraunhofer, Chalmers, Goteborg, Naples
+\newcommand{\hlogo}[1]{\hbox to0.25\textwidth{\hss\includegraphics[height=7.2mm]{#1}\hss}}
+\setbeamertemplate{headline}{%
+  \vskip3.8mm
+  \hbox to\paperwidth{\hskip6.4mm
+    \hbox to\textwidth{%
+      \hlogo{fraunhofer.png}\hlogo{chalmers.png}%
+      \hbox to0.25\textwidth{\hss\includegraphics[height=8.6mm]{goteborg.png}\hss}%
+      \hlogo{napoli.png}%
+    }\hfil}%
+  \vskip1mm
+}
+
+% ---- Footer: venue (left) | section (centre) | slide no. (right) -----
+\setbeamertemplate{footline}{%
+  \vskip2mm
+  \hbox to\paperwidth{\hskip6.4mm
+    \hbox to\textwidth{%
+      \color{muted}\fontsize{7}{8.4}\selectfont
+      \rlap{FSE 2026 \,$\cdot$\, Montr\'eal \,$\cdot$\, 5--9 July 2026}%
+      \hfil\insertsection\hfil
+      \llap{\insertframenumber}%
+    }\hfil}%
+  \vskip3mm
+}
+
+% ---- Frame title (content slides): navy, bold, left aligned ---------
+\setbeamertemplate{frametitle}{%
+  \vskip6mm
+  {\headingfont\bfseries\color{navy}\fontsize{16}{19}\selectfont\insertframetitle\par}%
+}
+
+% ---- Section divider, auto-generated and footer-updating ------------
+\AtBeginSection[]{%
+  \begin{frame}
+    \centering\vfill
+    {\color{muted}\fontsize{8}{10}\selectfont SECTION \thesection\par}
+    \vskip3mm
+    {\headingfont\bfseries\color{navy}\fontsize{20}{24}\selectfont\insertsection\par}
+    \vfill
+  \end{frame}
+}
+
+\begin{document}
+
+% ============ Title frame ============
+\begin{frame}
+  \centering\vfill
+  {\headingfont\bfseries\color{navy}\fontsize{20}{24}\selectfont
+    Introduction to Causal Inference for Software Engineering\par}
+  \vskip4mm
+  {\color{muted}\itshape\fontsize{10}{12}\selectfont A 90-minute hands-on tutorial\par}
+  \vskip7mm
+  {\color{ink}\fontsize{8}{10}\selectfont
+    Julien Siebert \,$\cdot$\, Julian Frattini \,$\cdot$\, Hans-Martin Heyn \,$\cdot$\, Roberto Pietrantuono\par}
+  \vfill
+\end{frame}
+
+% ============ A section (triggers the divider + sets the footer) =====
+\section{Section title}
+
+% ============ Content frame ============
+\begin{frame}{Slide title}
+  \begin{itemize}
+    \item Body content goes here. Use this layout for most slides.
+    \item Each bullet is a key point. Keep lines short and crisp.
+      \begin{itemize}
+        \item Sub-points sit one level in.
+      \end{itemize}
+    \item Add figures, causal graphs, or tables alongside the text.
+  \end{itemize}
+\end{frame}
+
+\end{document}
