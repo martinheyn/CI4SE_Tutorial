@@ -1,0 +1,5 @@
+📈 Are you attending the ACM International Conference on the Foundations of Software Engineering (FSE) 2026 and want to upgrade your data analysis skills? Join our tutorial "Introduction to Causal Inference for Software Engineering" on Sunday, 5th of July, from 11:00 until 12:30 at Room MB 2.430.
+
+Julien Siebert, Julian Frattini, Hans-Martin Heyn and Roberto Pietrantuono have put together a brief introduction to causal inference for software engineering (SE). In this 90-minute tutorial, you will learn the fundamentals that enable you to draw causal conclusions even from data that were not produced by controlled experiments, but rather from observational studies. With these powerful methods, SE research can procure even more reliable and useful insights and support for SE practitioners.
+
+Specific prior knowledge about inferential statistics is not necessary: the tutorial will guide you from the quantitative data analysis skills you already possess to a more advanced understanding of how science and statistics are related. Join us on July 5th in Montreal!
