@@ -1,6 +1,8 @@
 # CI4SE_Tutorial
 Material for the Tutorial "Introduction to Causal Inference for Software Engineering" 
 
+![Banner for the FSE'26 conference](publicity/fse-26/banner.png)
+
 # Authors
 Julien Siebert - Frauenhofer IESE
 Julian Frattini - Chalmers University of Technology and Gothenburg University
