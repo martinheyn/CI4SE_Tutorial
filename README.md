@@ -7,25 +7,15 @@ Julian Frattini - Chalmers University of Technology and Gothenburg University
 Hans-Martin Heyn - Gothenburg University and Chalmers University of Technology
 Roberto Pietrantuono - University of Naples Federico II
 # Schedule of Tutorial at FSE'26
-| Topic | Time |
-|---|---|
-| Introduction (material and exercises access). Motivation from a SE perspective. | 5 min |
-| Modeling causal effects with causal graphs. Examples from SE research papers (most probably from domains such as Requirements Engineering, Testing and Fault Localization [5, 8, 10]). | 18 min |
-| Basic causal graphical structure and d-separation. | 17 min |
-| Break. | 10 min |
-| Identification, adjustment sets and conditional independencies. Exercises with Dagitty⁴ and application to previous SE examples. | 20 min |
-| Causal effect estimation and short overview in causal machine learning. | 10 min |
-| Conclusion: methods not explicitly relying upon graphs, counterfactual and mediation analysis, next steps in your causal journey with pointers to books, online Lectures and other reading material. | 10 min |
-
-# Materials
-The slide decks are in the [`slides`](slides) folder.
-
-* [Part 1: Causal Modelling, Intro, Testing, RCA](slides/Part%201%20Causal%20Modelling_intro_testing_RCA.pdf)
-* [Part 2: Causal Modelling as RE Activity](slides/Part%202%20Causal%20Modelling%20as%20RE%20activity.pdf)
-* [Part 3: Basic Causal Structures and d-separation](slides/Part%203%20Basic%20Causal%20Structures%20and%20d-separation.pdf)
-* [Part 4: DAGitty Exercises](slides/Part%204%20DAGitty%20Exercises.pdf)
-* [Part 5: Causal Effect Estimation](slides/Part%205%20Causal%20Effect%20Estimation.pdf)
-* Part 6: Conclusion (slides coming soon)
+| Topic | Time | Slides |
+|---|---|---|
+| Introduction (material and exercises access). Motivation from a SE perspective. | 5 min | [Part 1](slides/Part%201%20Causal%20Modelling_intro_testing_RCA.pdf) |
+| Modeling causal effects with causal graphs. Examples from SE research papers (most probably from domains such as Requirements Engineering, Testing and Fault Localization [5, 8, 10]). | 18 min | [Part 2](slides/Part%202%20Causal%20Modelling%20as%20RE%20activity.pdf) |
+| Basic causal graphical structure and d-separation. | 17 min | [Part 3](slides/Part%203%20Basic%20Causal%20Structures%20and%20d-separation.pdf) |
+| Break. | 10 min | |
+| Identification, adjustment sets and conditional independencies. Exercises with [Dagitty](https://dagitty.net/)⁴ and application to previous SE examples. | 20 min | [Part 4](slides/Part%204%20DAGitty%20Exercises.pdf) |
+| Causal effect estimation and short overview in causal machine learning. | 10 min | [Part 5](slides/Part%205%20Causal%20Effect%20Estimation.pdf) |
+| Conclusion: methods not explicitly relying upon graphs, counterfactual and mediation analysis, next steps in your causal journey with pointers to books, online Lectures and other reading material. | 10 min | Part 6 (coming soon) |
 
 # Reading materials
 References in **bold** are especially suitable as starting points into the statistical causal inference journey.
