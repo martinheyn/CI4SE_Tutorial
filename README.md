@@ -13,7 +13,7 @@ Roberto Pietrantuono - University of Naples Federico II
 | Modeling causal effects with causal graphs. Examples from SE research papers (most probably from domains such as Requirements Engineering, Testing and Fault Localization [5, 8, 10]). | 18 min | [Part 2](slides/Part%202%20Causal%20Modelling%20as%20RE%20activity.pdf) |
 | Basic causal graphical structure and d-separation. | 17 min | [Part 3](slides/Part%203%20Basic%20Causal%20Structures%20and%20d-separation.pdf) |
 | Break. | 10 min | |
-| Identification, adjustment sets and conditional independencies. Exercises with [Dagitty](https://dagitty.net/)⁴ and application to previous SE examples. | 20 min | [Part 4](slides/Part%204%20DAGitty%20Exercises.pdf) |
+| Identification, adjustment sets and conditional independencies. Exercises with [Dagitty](https://dagitty.net/) and application to previous SE examples. | 20 min | [Part 4](slides/Part%204%20DAGitty%20Exercises.pdf) |
 | Causal effect estimation and short overview in causal machine learning. | 10 min | [Part 5](slides/Part%205%20Causal%20Effect%20Estimation.pdf) |
 | Conclusion: methods not explicitly relying upon graphs, counterfactual and mediation analysis, next steps in your causal journey with pointers to books, online Lectures and other reading material. | 10 min | Part 6 (coming soon) |
 
