@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="326.5"
+   height="296.5"
+   viewBox="0 0 326.5 296.5"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="DAG_only.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.6424728"
+     inkscape:cx="-712.87064"
+     inkscape:cy="140.86199"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <defs
+     id="defs7">
+    <marker
+       id="ah"
+       markerWidth="9"
+       markerHeight="9"
+       refX="7.5"
+       refY="4"
+       orient="auto"
+       markerUnits="userSpaceOnUse">
+      <path
+         d="M 0,0 9,4 0,8 Z"
+         fill="#44506a"
+         id="path7" />
+    </marker>
+  </defs>
+  <line
+     x1="145.34998"
+     y1="51.949997"
+     x2="46.349976"
+     y2="234.85001"
+     stroke="#44506a"
+     stroke-width="3"
+     marker-end="url(#ah)"
+     id="line7" />
+  <line
+     x1="171.84998"
+     y1="51.550003"
+     x2="279.15002"
+     y2="235.45001"
+     stroke="#44506a"
+     stroke-width="3"
+     marker-end="url(#ah)"
+     id="line8" />
+  <line
+     x1="55.25"
+     y1="268.25"
+     x2="260.25"
+     y2="268.25"
+     stroke="#44506a"
+     stroke-width="3"
+     marker-end="url(#ah)"
+     id="line9" />
+  <line
+     x1="50.75"
+     y1="253.25"
+     x2="131.65002"
+     y2="199.35001"
+     stroke="#44506a"
+     stroke-width="3"
+     marker-end="url(#ah)"
+     id="line10" />
+  <line
+     x1="185.75"
+     y1="193.25"
+     x2="266.65002"
+     y2="247.14999"
+     stroke="#44506a"
+     stroke-width="3"
+     marker-end="url(#ah)"
+     id="line11" />
+  <circle
+     cx="158.25"
+     cy="28.25"
+     r="27"
+     fill="#7d3c98"
+     stroke="#5d2d72"
+     stroke-width="2.5"
+     id="circle11" />
+  <circle
+     cx="163.25"
+     cy="178.25"
+     r="27"
+     fill="#009e73"
+     stroke="#007656"
+     stroke-width="2.5"
+     id="circle12" />
+  <circle
+     cx="28.25"
+     cy="268.25"
+     r="27"
+     fill="#d62728"
+     stroke="#a01d1e"
+     stroke-width="2.5"
+     id="circle13" />
+  <circle
+     cx="298.25"
+     cy="268.25"
+     r="27"
+     fill="#0072b2"
+     stroke="#005585"
+     stroke-width="2.5"
+     id="circle14" />
+</svg>
